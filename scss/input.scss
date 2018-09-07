@@ -1,4 +1,20 @@
-// @import variables;
+@import 'variables';
+
+html {
+  font-family: $nikeFont2;
+}
+
+body {
+  margin: 0;
+}
+
+h4 {
+  @include h4;
+}
+
+h6 {
+  @include h6;
+}
 
 .flex {
   display: flex;
@@ -6,4 +22,68 @@
 
 .column {
   flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100px;
+  @include header;
+  background-color: $nikeWhite;
+  .topHeader{
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bottomHeader {
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $nikeGrey;
+    border-bottom: 1px solid $nikeGrey;
+    height: 60px;
+    position: relative;
+    img {
+      display: block;
+      padding: 13px;
+      width: 50%;
+    }
+  }
+}
+
+.headerLogos {
+  width: 30%;
+  position: relative;
+  align-items: center;
+  .headerLogoDiv {
+    border-right: 1px solid $nikeGrey;
+    padding: 8px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.headertext {
+  align-items: center;
+  .headerTextItem {
+    padding: 5px;
+    i {
+      font-size: 11px;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 15px;
+  padding: 8px 5px;
+  width: 150px;
+  border: 1px solid darken($nikeGrey, 10%);
+  border-radius: 3px;
 }

@@ -1,0 +1,31 @@
+$nikeFont1: Helvetica;
+$nikeFont2: Arial, sans-serif;
+
+$nikeWhite: white;
+$nikeBrown: #8c7272;
+$nikeBlack: #111;
+$nikeGrey: #f1f1f1;
+$nikeYellow: #ebbe50;
+
+@mixin header {
+  width: 100%;
+  justify-content: space-between;
+}
+
+@mixin h4 {
+  color: $nikeBlack;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: $nikeFont2;
+  space-between: 1px;
+  letter-spacing: 2px;
+  transform: scale(.6, 1);
+}
+
+@mixin h6 {
+  color: $nikeBrown;
+  font-family: $nikeFont2;
+  font-size: 11px;
+  font-weight: lighter;
+}
