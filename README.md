@@ -8,10 +8,12 @@
 The Original Website: https://www.nike.com/t/air-zoom-terra-kiger-4-mens-running-shoe-OzqzBz.
 
 ![alt text](img/nikeOriginal.JPG)
+![alt text](img/nikeOriginal2.JPG)
 
 My Website:
 
-![alt text](img/nikeOriginal.JPG)
+![alt text](img/nikeTalia1.JPG)
+![alt text](img/nikeTalia2.JPG)
 
 
 
