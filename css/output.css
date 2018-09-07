@@ -6,6 +6,19 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 12px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  line-height: 1.3;
+  margin: 5px auto;
+}
+
 h4 {
   color: #111;
   font-size: 14px;
@@ -37,7 +50,7 @@ h6 {
   top: 0;
   z-index: 9999;
   width: 100%;
-  height: 100px;
+  height: 140px;
   width: 100%;
   justify-content: space-between;
   background-color: white;
@@ -95,6 +108,56 @@ input {
   width: 150px;
   border: 1px solid #d8d8d8;
   border-radius: 3px;
+}
+
+.bannerDiv {
+  position: relative;
+  width: 100%;
+}
+.bannerDiv img {
+  width: 100%;
+}
+
+.featuredContent {
+  max-width: 1080px;
+  position: relative;
+  margin: 200px auto;
+}
+.featuredContent .featuredText {
+  width: 500px;
+  margin-right: 15px;
+  position: relative;
+}
+.featuredContent .featuredText .categoryPriceLine {
+  justify-content: space-between;
+}
+.featuredContent .featuredRow {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.featuredContent .featuredRow .imageWrap {
+  position: relative;
+  width: 45%;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.featuredContent .featuredRow .imageWrap img {
+  display: block;
+  width: 100%;
+}
+
+.sideDisplay {
+  width: 45%;
+  position: relative;
+}
+.sideDisplay .imageWrap {
+  width: 90px;
+  height: 90px;
+  padding: 15px 5px 15px 0px;
+  width: 50%;
+}
+.sideDisplay .imageWrap img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=output.css.map */
