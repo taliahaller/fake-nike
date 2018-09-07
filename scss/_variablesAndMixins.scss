@@ -12,6 +12,14 @@ $nikeYellow: #ebbe50;
   justify-content: space-between;
 }
 
+@mixin h2 {
+  font-size: 26px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  line-height: 1.3;
+  margin: 5px auto;
+}
+
 @mixin h4 {
   color: $nikeBlack;
   font-size: 14px;
